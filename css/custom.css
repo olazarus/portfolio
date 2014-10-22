@@ -67,6 +67,10 @@ li {
 	padding-bottom: 50px;
 }
 
+.img-wrap {
+	height: 300px;
+}
+
 a {
 	text-decoration: none;
 }
