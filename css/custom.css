@@ -1,6 +1,6 @@
 body {
 	font-family: 'Beunard', serif;
-	font-size: 17px;
+	font-size: 14px;
 }
 
 h5 {
@@ -8,12 +8,32 @@ h5 {
 	font-style: italic;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
 	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+h6 { 
+	font-size: 14px;
 }
 
 .header {
 	text-align: center;
+}
+
+.block img {
+	border-radius: 100%;
+}
+
+h3 {
+	padding-bottom: 50px;
+}
+
+h1, h2, li {
+	text-transform: uppercase;
 }
 
 li {
@@ -23,6 +43,7 @@ li {
 
 .thumbnails {
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 .thumbnails img {
@@ -43,6 +64,7 @@ li {
 
 .icons {
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 a {
