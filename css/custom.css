@@ -1,3 +1,8 @@
+body {
+	font-family: 'Beunard', serif;
+	font-size: 17px;
+}
+
 h5 {
 	text-align: center;
 	font-style: italic;
@@ -20,24 +25,26 @@ li {
 	text-align: center;
 }
 
-
 .thumbnails img {
 	margin: 0 auto;
 }
 
 .line {
 	margin-top: 5px;
-	border-bottom: dashed 1px #000;
+	border-bottom: dashed 1px red;
 }
-
+	
 
 .icon {
 	display: inline-block;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 
 .icons {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
