@@ -47,6 +47,9 @@ li {
 }
 
 .thumbnails img {
+	display: block;
+	height: 175px;
+	width: 175px;
 	margin: 0 auto;
 }
 
