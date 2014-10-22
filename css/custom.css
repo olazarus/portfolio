@@ -3,6 +3,7 @@ body {
 	font-size: 14px;
 }
 
+
 h5 {
 	text-align: center;
 	font-style: italic;
@@ -53,11 +54,14 @@ li {
 	margin: 0 auto;
 }
 
+.img-wrap {
+	height: 300px;
+}
+
 .line {
 	margin-top: 5px;
 	border-bottom: dashed 1px red;
 }
-	
 
 .icon {
 	display: inline-block;
