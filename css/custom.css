@@ -1,16 +1,22 @@
+
+
 body {
-	font-family: 'Beunard', serif;
-	font-size: 14px;
+	font-family: 'Josefin Slab', serif;
 }
 
 h5 {
 	text-align: center;
 	font-style: italic;
+	font-weight: semi-bold;
+	font-size: 17px;
 }
 
 h1, h2, h3, p {
 	text-align: center;
 }
+
+
+
 
 h3 {
 	text-decoration: underline;
@@ -21,7 +27,11 @@ a {
 }
 
 h6 { 
-	font-size: 14px;
+	font-size: 17px;
+}
+
+p {
+	font-size: 20px;
 }
 
 .header {
@@ -30,8 +40,12 @@ h6 {
 
 .block img {
 	border-radius: 100%;
-	border: 1px solid black;
+	border: 3px solid black;
 	
+}
+
+.img-wrap:hover img {
+	border: 3px solid #F29494;
 }
 
 h3 {
@@ -94,15 +108,15 @@ ul {
 }
 
 .btn {
-	border: 1px dashed #F29494;
-	font-family: 'Beunard', serif;
-	font-size: 17px;
+	border: 2px solid #F29494;
+	font-size: 20px;
+	font-weight: 600;
 	background-color: white; 
 	color: black;
 }
 
 .btn:hover {
-	border: 1px dashed black;
+	border: 2px solid black;
 	background-color: #F29494;
 }
 
@@ -110,6 +124,7 @@ ul {
 	display: block;
 	margin: 0 auto;
 	border-radius: 100%;
-	border: 1px solid black;
+	border: 3px solid black;
 	margin-bottom: 50px;
 }
+
