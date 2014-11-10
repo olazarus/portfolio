@@ -30,6 +30,8 @@ h6 {
 	font-size: 17px;
 }
 
+
+
 p {
 	font-size: 20px;
 }
@@ -131,5 +133,23 @@ ul {
 
 .icon:hover {
 	background-color: #F29494;
-	border-radius: 90%;
+	border-radius: 100%;
 }
+
+.neon {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  text-overflow: clip;
+  white-space: pre;
+ }
+
+.neon:hover {
+   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px red, 0 0 70px red , 0 0 80px red , 0 0 100px red;
+}
+
